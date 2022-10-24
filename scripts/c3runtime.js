@@ -3857,7 +3857,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Acts.SimulateControl,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
-		C3.Plugins.Sprite.Acts.SetVisible
+		C3.Plugins.Sprite.Acts.SetVisible,
+		C3.Behaviors.EightDir.Acts.SimulateControl
 	];
 };
 self.C3_JsPropNameTable = [
@@ -3898,7 +3899,8 @@ self.C3_JsPropNameTable = [
 	{Sprite3: 0},
 	{Sprite6: 0},
 	{Texto: 0},
-	{btnBaixo: 0}
+	{btnBaixo: 0},
+	{Sprite2: 0}
 ];
 }
 
@@ -4004,8 +4006,7 @@ self.C3_ExpressionFuncs = [
 		() => "anmPlayerIdle",
 		() => 1,
 		() => "direita",
-		() => "left",
-		() => "right"
+		() => "esquerda"
 ];
 
 
